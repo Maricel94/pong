@@ -28,8 +28,8 @@ class Pelota(turtle.Turtle):
         self.color('white')
         self.penup()
         self.goto(0,0) 
-        self.dx = 0.1
-        self.dy = 0.1            
+        self.dx = 0.2
+        self.dy = 0.2           
 
     def movimiento(self):
         self.setx(self.xcor() + self.dx)
@@ -157,3 +157,4 @@ class Game():
 # Ejecutando el juego
 game = Game()
 game.play() 
+
